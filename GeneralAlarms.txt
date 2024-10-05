@@ -1,0 +1,8 @@
+Bot: Alarma_1: Descripcion de Alarma 1
+Bot: Alarma_2: Descripcion de Alarma 2
+Bot: Alarma_3: Descripcion de Alarma 3
+Bot: Alarma_4: Descripcion de Alarma 4
+Bot: Alarma_5: Descripcion de Alarma 5
+Bot: Alarma_6: Descripcion de Alarma 6
+
+
