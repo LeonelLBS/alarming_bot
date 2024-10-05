@@ -8,7 +8,7 @@ from OPC_read_write import read_input_value
 import snap7
 import snap7.client as c
 from snap7.util import *
-from snap7.types import *
+from snap7.type import *
 #from snap7.common import ADict
 
 

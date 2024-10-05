@@ -6,7 +6,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import snap7.client as c
 from snap7.util import *
-from snap7.types import *
+from snap7.type import *
 from datetime import datetime
 from time import sleep
 from MensajesTXT import MensajesAlarmas
