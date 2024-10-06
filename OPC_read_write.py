@@ -1,7 +1,7 @@
 from opcua import Client, ua
 
 def read_input_value(node_id):
-    client_node = client.get_node(node_id)
+    client_node = Client.get_node(node_id)
     client_node_value = client_node.get_value()
     print('Value of : ' + str(client_node) + ' : ' + str(client_node_value))
 

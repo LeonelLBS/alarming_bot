@@ -68,7 +68,7 @@ def periodical():
 			En_Linea = False
 			'''
 		
-		rinvalue('ns=4;i=5')
+		# rinvalue('ns=4;i=5')
 
 
 		controlTime(mensajes_2, contacto,horaActual,wait)						#Mensaje peripodico Bot Operativo - Online
@@ -91,13 +91,14 @@ if __name__ == '__main__':
 	#driver.quit()
 
 	#-------------------Grupo de wspp que recibirá mensajes-----------------------------
-	#contacto = '"☀️🏖️⛱️🕶️FIEE G4 - Modo Verano-2024"'
-	contacto = '"LBS BOT"'
+	contacto = '"☀️🏖️⛱️🕶️FIEE G4 - Modo Verano-2024"'
+	#contacto = '"LBS BOT"'
 
 
 	#----------------- Mensajería a enviar --------------------#
 	mensajes_1 = []
-	mensajes_2 = "Aviso: Bot Operativo - Online"
+	#mensajes_2 = "Aviso: Bot Operativo - Online"
+	mensajes_2 = "Aviso-Bot: Renzo eres una lokita"
 	mensajes_3 = "Zona Corte Laser"
 	mensajes = MensajesAlarmas("C:/Users/LEONEL/OneDrive - Universidad Nacional Mayor de San Marcos/Documents/Bot_Project/03. 060424/2_python_L/GeneralAlarms.txt", mensajes_1)
 
